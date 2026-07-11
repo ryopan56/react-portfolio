@@ -9,11 +9,11 @@ function Social() {
         </p>
 
         <h2 className="mt-3 text-3xl font-bold tracking-tight">
-          制作物はGitHubでも公開します。
+          このサイトのソースコードはGitHubでも公開します。
         </h2>
 
         <a
-          href="https://github.com/ryopan56"
+          href="https://github.com/ryopan56/react-portfolio"
           target="_blank"
           rel="noreferrer"
           className="mt-8 inline-flex rounded-lg bg-slate-900 px-5 py-3 font-semibold text-white transition hover:bg-slate-700"

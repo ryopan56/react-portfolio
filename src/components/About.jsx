@@ -13,20 +13,22 @@ function About() {
             学びながら、少しずつ作る。
           </h2>
 
-          <p className="mt-6 leading-8 text-slate-600">
+          <p className="text-left mt-6 leading-8 text-slate-600">
             プログラミング初心者として、Reactを使ったWeb開発を学習中です。
             このサイトは、コンポーネント、props、stateの理解を目的に制作しています。
           </p>
 
-          <p className="mt-4 leading-8 text-slate-600">
+          <p className="text-left mt-4 leading-8 text-slate-600">
             まずは小さく動くものを作り、仕組みを理解しながら少しずつ改善していきます。
           </p>
         </div>
 
-        <div className="flex min-h-64 items-center justify-center rounded-2xl bg-slate-100 p-8">
-          <p className="text-center text-sm text-slate-500">
-            ここにプロフィール画像を置く予定です
-          </p>
+        <div className="overflow-hidden rounded-2xl border border-slate-200 bg-slate-100 shadow-sm">
+           <img
+            src="/images/profile.jpg"
+            alt="プロフィール写真"
+            className="h-80 w-full object-cover"
+          />
         </div>
       </div>
     </Section>

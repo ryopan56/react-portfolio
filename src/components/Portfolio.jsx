@@ -1,6 +1,7 @@
 import { useState } from "react"
 import Section from "./Section"
 import { projects } from "../data/projects"
+import ProjectDemo from './ProjectDemo'
 
 function Portfolio() {
   const [selectedProjectID, setSelectedProjectID] = useState(projects[0].id)
@@ -18,8 +19,8 @@ function Portfolio() {
         制作・学習プロジェクト
       </h2>
 
-      <p className="mt-4 max-w-2xl leading-8 text-slate-600">
-        現時点では学習用の仮プロジェクトです。後のPhaseで、作品一覧をReactの配列データから表示する形に変更します。
+      <p className= "mt-4 leading-8 text-slate-600">
+        カードをクリックすると、下に表示される詳細とデモ画面が切り替わります。
       </p>
 
       <div className="mt-10 grid gap-6 md:grid-cols-3">
@@ -54,27 +55,23 @@ function Portfolio() {
           );
         })}
       </div>
-      
-      <article className="mt-10 rounded-2xl bg-white p-8 shadow-sm">
+
+      <article className="mx-auto mt-10 rounded-2xl bg-white p-8 shadow-sm">
         <p className="text-sm font-semibold text-slate-500">
           選択中の作品：{selectedProject.number}
         </p>
 
         <h3 className="mt-3 text-2xl font-bold">{selectedProject.title}</h3>
 
-        <p className="mt-4 max-w-2xl leading-8 text-slate-600">
+        <p className="mt-4 leading-8 text-slate-600">
           {selectedProject.detail}
         </p>
 
-        <a
-          href={selectedProject.projectUrl}
-          target="_blank"
-          rel="noreferrer"
-          className="mt-6 inline-flex rounded-lg bg-slate-900 px-5 py-3 font-semibold text-white transition hover:bg-slate-700"
-        >
-          作品を見る
-        </a>
+        <div className="mt-8">
+          <ProjectDemo projectId={selectedProject.id} />
+        </div>
       </article>
+      
     </Section>
   );
 }

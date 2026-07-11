@@ -8,13 +8,13 @@ function Hero() {
         React Learning Project
       </p>
 
-      <h1 className="mt-6 max-w-3xl text-4xl font-bold leading-tight tracking-tight sm:text-6xl">
+      <h1 className="mt-6 text-4xl font-bold leading-tight tracking-tight sm:text-6xl">
         Reactを学びながら、
         <br />
         Webサイトを作っています。
       </h1>
 
-      <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
+      <p className="mt-6 text-lg leading-8 text-slate-600">
         ReactとTailwind
         CSSを使い、使いやすく分かりやすいWebサイト作りを学んでいます。
       </p>
