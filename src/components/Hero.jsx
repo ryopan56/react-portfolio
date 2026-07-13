@@ -20,7 +20,7 @@ function Hero() {
           CSSを使い、使いやすく分かりやすいWebサイト作りを学んでいます。
         </p>
 
-        <div className="mt-8 flex flex-wrap gap-4">
+        <div className="mt-8 flex flex-wrap justify-center gap-4">
           <a
             href="#portfolio"
             className="rounded-lg bg-slate-900 px-5 py-3 font-semibold text-white transition hover:bg-slate-700"

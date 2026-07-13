@@ -60,7 +60,7 @@ function Portfolio() {
           })}
         </div>
 
-        <article className="mx-auto mt-10 rounded-2xl bg-white p-8 shadow-sm">
+        <article className="mt-10 rounded-2xl bg-white p-8 shadow-sm">
           <p className="text-sm font-semibold text-slate-500">
             選択中の作品：{selectedProject.number}
           </p>
