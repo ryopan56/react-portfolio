@@ -1,10 +1,8 @@
 function ProjectDemo({ projectId }) {
-  if (projectId === 'react-portfolio') {
+  if (projectId === "react-portfolio") {
     return (
       <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
-        <p className="text-sm font-semibold text-slate-500">
-          Current Site
-        </p>
+        <p className="text-sm font-semibold text-slate-500">Current Site</p>
 
         <h4 className="mt-3 text-xl font-bold">
           現在表示中のポートフォリオサイトです
@@ -15,16 +13,24 @@ function ProjectDemo({ projectId }) {
         </p>
 
         <ul className="mt-5 grid gap-3 text-sm text-slate-700 sm:grid-cols-2">
-          <li className="rounded-lg bg-white p-3 shadow-sm">コンポーネント分割</li>
-          <li className="rounded-lg bg-white p-3 shadow-sm">props / children</li>
-          <li className="rounded-lg bg-white p-3 shadow-sm">map()による一覧表示</li>
-          <li className="rounded-lg bg-white p-3 shadow-sm">useStateによる表示切替</li>
+          <li className="rounded-lg bg-white p-3 shadow-sm">
+            コンポーネント分割
+          </li>
+          <li className="rounded-lg bg-white p-3 shadow-sm">
+            props / children
+          </li>
+          <li className="rounded-lg bg-white p-3 shadow-sm">
+            map()による一覧表示
+          </li>
+          <li className="rounded-lg bg-white p-3 shadow-sm">
+            useStateによる表示切替
+          </li>
         </ul>
       </div>
-    )
+    );
   }
 
-  if (projectId === 'recipe-app') {
+  if (projectId === "recipe-app") {
     return (
       <div className="rounded-2xl border border-slate-200 bg-orange-50 p-6">
         <div className="rounded-2xl bg-white p-5 shadow-sm">
@@ -36,9 +42,9 @@ function ProjectDemo({ projectId }) {
               <h4 className="mt-1 text-xl font-bold">今日のレシピ</h4>
             </div>
 
-            <button className="rounded-lg bg-orange-500 px-4 py-2 text-sm font-semibold text-white">
+            <span className="rounded-lg bg-orange-500 px-4 py-2 text-sm font-semibold text-white">
               レシピ追加
-            </button>
+            </span>
           </div>
 
           <div className="mt-5 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-500">
@@ -64,10 +70,10 @@ function ProjectDemo({ projectId }) {
           </div>
         </div>
       </div>
-    )
+    );
   }
 
-  if (projectId === 'GAS/Notion System') {
+  if (projectId === "gas-notion-system") {
     return (
       <div className="rounded-2xl border border-slate-200 bg-blue-50 p-6">
         <div className="rounded-2xl bg-white p-5 shadow-sm">
@@ -79,9 +85,9 @@ function ProjectDemo({ projectId }) {
               <h4 className="mt-1 text-xl font-bold">相続手続プラン</h4>
             </div>
 
-            <button className="rounded-lg bg-blue-500 px-4 py-2 text-sm font-semibold text-white">
+            <span className="rounded-lg bg-blue-500 px-4 py-2 text-sm font-semibold text-white">
               新規商品パッケージ
-            </button>
+            </span>
           </div>
 
           <div className="mt-5 space-y-3">
@@ -117,10 +123,10 @@ function ProjectDemo({ projectId }) {
           </div>
         </div>
       </div>
-    )
+    );
   }
 
-  return null
+  return null;
 }
 
-export default ProjectDemo
+export default ProjectDemo;

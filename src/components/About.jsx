@@ -3,7 +3,7 @@ import Section from "./Section";
 function About() {
   return (
     <Section id="about" sectionClassName="bg-white">
-      <div className="grid gap-10 md:grid-cols-2 md:items-center">
+      <div className="text-center grid gap-10 md:grid-cols-2 md:items-center">
         <div>
           <p className="text-sm font-bold uppercase tracking-widest text-slate-500">
             About
@@ -24,7 +24,7 @@ function About() {
         </div>
 
         <div className="overflow-hidden rounded-2xl border border-slate-200 bg-slate-100 shadow-sm">
-           <img
+          <img
             src="/images/profile.jpg"
             alt="プロフィール写真"
             className="h-80 w-full object-cover"
