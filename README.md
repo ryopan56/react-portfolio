@@ -1,16 +1,43 @@
-# React + Vite
+# Ryopan56 Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ReactとTailwind CSSを使って制作した、学習用ポートフォリオサイトです。
 
-Currently, two official plugins are available:
+## 公開URL
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://あなたのCloudflare PagesのURL
 
-## React Compiler
+## 概要
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+このサイトは、Reactの基本を学習しながら制作したポートフォリオです。
 
-## Expanding the ESLint configuration
+主に以下の内容を練習しています。
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- コンポーネント分割
+- props / children
+- 配列の `map()` を使った一覧表示
+- `useState` による表示切り替え
+- Tailwind CSSによるスタイリング
+- Viteを使った開発・ビルド
+
+## 使用技術
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+- Cloudflare Pages
+
+## 主なセクション
+
+- Hero
+- About
+- Portfolio
+- Social
+- Footer
+
+## ローカルでの起動方法
+
+```bash
+npm install
+npm run dev
+```
