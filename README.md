@@ -4,7 +4,7 @@ ReactとTailwind CSSを使って制作した、学習用ポートフォリオサ
 
 ## 公開URL
 
-https://あなたのCloudflare PagesのURL
+https://react-portfolio-ese.pages.dev
 
 ## 概要
 
