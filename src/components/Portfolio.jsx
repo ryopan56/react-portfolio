@@ -32,6 +32,7 @@ function Portfolio() {
               <button
                 type="button"
                 key={project.id}
+                aria-pressed={isSelected}
                 onClick={() => setSelectedProjectID(project.id)}
                 className={`rounded-2xl p-6 text-left shadow-sm transition
                 ${

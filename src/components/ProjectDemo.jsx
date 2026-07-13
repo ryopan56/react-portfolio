@@ -42,9 +42,9 @@ function ProjectDemo({ projectId }) {
               <h4 className="mt-1 text-xl font-bold">今日のレシピ</h4>
             </div>
 
-            <button className="rounded-lg bg-orange-500 px-4 py-2 text-sm font-semibold text-white">
+            <span className="rounded-lg bg-orange-500 px-4 py-2 text-sm font-semibold text-white">
               レシピ追加
-            </button>
+            </span>
           </div>
 
           <div className="mt-5 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-500">
@@ -85,9 +85,9 @@ function ProjectDemo({ projectId }) {
               <h4 className="mt-1 text-xl font-bold">相続手続プラン</h4>
             </div>
 
-            <button className="rounded-lg bg-blue-500 px-4 py-2 text-sm font-semibold text-white">
+            <span className="rounded-lg bg-blue-500 px-4 py-2 text-sm font-semibold text-white">
               新規商品パッケージ
-            </button>
+            </span>
           </div>
 
           <div className="mt-5 space-y-3">
